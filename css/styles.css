@@ -39,13 +39,14 @@ body
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 50%;
-
 }
 
 .header .header__info__1
 {
     font-size: 2.5em;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: underline;
     padding-bottom: 50px;
 }
@@ -182,6 +183,14 @@ body
     cursor: pointer;
     color: azure;
     padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.fa-envelope {
+    cursor: pointer;
+    color: azure;
+    padding-bottom: 50px;
+    padding-left: 20px;
 }
 
 .copyright {
@@ -189,3 +198,117 @@ body
 }
 
 /*Media Queries*/
+@media only screen and (max-width: 767px) {
+
+    body {
+        height: 1vh;
+        width: 100%;
+    }
+    .header .header__heading {
+        font-size: 1.7em;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 100px;
+    }
+
+    
+    .header .header__name {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .header .header__image {
+        width: 45%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 50%;
+    }
+
+    
+    .header .header__info__1 {
+        font-size: 1.7em;
+    }
+
+    
+    .header .header__info__2 {
+        font-size: 1.3em;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+
+    .header .header__info__3 {
+        font-size: 1.3em;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .header .header__info__4__container {
+        margin: 3%;
+    }
+
+    .header .header__info__4 {
+        font-size: 1.2em;
+    }
+
+    /*CONTAINERS*/
+
+    .container .container__info__1 {
+        font-size: 1.2em;
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .container__text__1 {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .container .container__image_1 {
+        width: 100%;
+    }
+
+    .container .container__image__1 {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+    }
+
+    .container .container__text__2 {
+        text-align: left;
+    }
+    
+    .container .container__info__2 {
+        font-size: 1.2em;
+    }
+    
+    .container__line {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .container .container__image__2 {
+        width: 70%;
+        padding-bottom: 70px;
+    }
+
+    .footer__text__1 {
+
+        font-size: 1.7em;
+        padding-bottom: 30px;
+    }
+
+    .fa-instagram {
+        padding-bottom: 40px;
+        font-size: 75px;
+    }
+
+    .fa-envelope {
+        padding-bottom: 40px;
+        font-size: 75px;
+    }
+}
